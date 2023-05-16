@@ -1,0 +1,183 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: black;
+    font-weight: bolder;
+    color: white;
+    height: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cabecalho img {
+    width: 6%;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.cabecalho h1 {
+    padding-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.index_nav {
+    padding-top: 10px;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+    border-top: 4px solid gold;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.index_nav li {
+    list-style: none;
+    padding: 2px 10px;
+    display: inline-block;
+}
+
+.index_nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.index_nav a:hover {
+    color: gold;
+}
+
+.FormularioCadastro {
+    margin: 0 auto;
+    width: 95%;
+    margin-bottom: 20px;
+    text-align: center;
+    top: 120px;
+    left: 100px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    color: white;
+
+
+}
+
+.FormularioAgendamento {
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
+    top: 120px;
+    right: 100px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    color: white;
+
+}
+
+fieldset {
+    border: 3px solid black;
+}
+
+#submit {
+
+    background: rgb(163, 163, 163);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#dataNasc {
+    position: center;
+}
+
+.footer {
+    margin-top: 50px;
+    border-top: 4px solid gold;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer img {
+    width: 100px;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.inputCadastro, .inputAgendamento {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.LabelInput {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.inputUser {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+select {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #00263a;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffcc00;
+}
